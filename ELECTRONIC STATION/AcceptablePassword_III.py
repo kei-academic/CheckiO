@@ -1,4 +1,4 @@
-# -*- codig: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 def is_acceptable_password(password: str) -> bool:
     result: bool = False
