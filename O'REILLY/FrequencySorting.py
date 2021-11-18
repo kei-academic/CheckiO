@@ -3,6 +3,10 @@
 from typing import List
 
 def frequency_sorting(numbers: List[int]) -> List[int]:
+    ans = sorted(sorted(numbers), key=numbers.count, reverse=True)
+    return ans
+
+    # another pattern(not recommended)
     ans = []
     num_list = sorted(set(numbers))
     for i in range(1, len(numbers))[::-1]:
