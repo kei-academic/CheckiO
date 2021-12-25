@@ -1,4 +1,4 @@
-# Algo-Method
+# CheckiO
 
 <p align="left">
     <!-- python icon -->
